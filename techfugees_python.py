@@ -33,6 +33,6 @@ for mentee in mentee_data:
             best_mentor = mentor
             best_mentor_score = help_score
     print (best_mentor)
-    print("Help Match:\t",100-best_mentor_score)
+    print("Help Match:\t",100-best_mentor_score,"\n")
 
         
