@@ -5,7 +5,11 @@ Documentation, License etc.
 '''
 import json
 import pprint
-json_data=open("test.json").read()
+mentor_json=open("mentor.json").read()
+mentee_json=open("mentee.json").read()
 
-data = json.loads(json_data)
-print(data["maps"])
+mentor_data = json.loads(mentor_json)
+mentee_data = json.loads(mentee_json)
+
+pprint.pprint(mentor_data)
+pprint.pprint(mentee_data)
